@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>PWA Starter - Demo</title>
+
+  <link rel="manifest" href="/manifest.json" />
+  <meta name="theme-color" content="#0ea5a4"/>
+  <link rel="icon" href="/icons/icon-192.svg">
+
+  <style>
+    /* inline minimal styling so project runs out-of-the-box */
+    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; margin:0; min-height:100vh; display:flex; align-items:center; justify-content:center; background:linear-gradient(135deg,#0ea5a4 0%,#6366f1 100%); color:white; }
+    .card { background: rgba(255,255,255,0.06); padding:24px; border-radius:12px; width:min(760px,95%); box-shadow:0 8px 24px rgba(0,0,0,0.18); }
+    header { display:flex; gap:12px; align-items:center; }
+    header img { width:56px; height:56px; border-radius:12px; }
+    h1 { margin:0 0 6px 0; font-size:1.25rem; }
+    p { margin:6px 0 14px 0; opacity:0.95; }
+    .controls { display:flex; gap:8px; flex-wrap:wrap; }
+    button { background:#fff; color:#111827; border:0; padding:8px 12px; border-radius:8px; cursor:pointer; font-weight:600; }
+    small { opacity:0.9; display:block; margin-top:12px; }
+    .status { margin-top:12px; font-family:monospace; background:rgba(255,255,255,0.03); padding:10px; border-radius:8px; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <header>
+      <img src="/icons/icon-192.svg" alt="PWA icon">
+      <div>
+        <h1>PWA Starter — Demo</h1>
+        <p>Simple progressive web app starter. Installable, offline-capable, service worker + manifest.</p>
+      </div>
+    </header>
+
+    <div class="controls" style="margin-top:12px;">
+      <button id="btn-update">Check for update</button>
+      <button id="btn-notify">Test Notification</button>
+      <button id="btn-install" style="display:none">Install App</button>
+    </div>
+
+    <div class="status" id="status">Status: loading…</div>
+    <small>Open devtools → Application to see manifest & service worker. Serve over HTTPS or localhost for install.</small>
+  </div>
+
+  <script src="/app.js"></script>
+</body>
+</html>
