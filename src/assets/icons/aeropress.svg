@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 176 176">
+    <g fill-rule="evenodd">
+        <rect width="48" height="16" x="64" y="144" rx="8"/>
+        <path d="M110 40c5.523 0 10 4.477 10 10v92c0 5.523-4.477 10-10 10H66c-5.523 0-10-4.477-10-10V50c0-5.523 4.477-10 10-10h44zm-2 8H68a4 4 0 00-4 4v88a4 4 0 004 4h40a4 4 0 004-4V52a4 4 0 00-4-4z"/>
+        <rect width="80" height="8" x="48" y="144" rx="4"/>
+        <path d="M99 24a9 9 0 019 9v90a9 9 0 01-9 9H77a9 9 0 01-9-9V33a9 9 0 019-9h22zm-3 8H80a4 4 0 00-4 4v84a4 4 0 004 4h16a4 4 0 004-4V36a4 4 0 00-4-4z"/>
+        <rect width="64" height="8" x="56" y="24" rx="4"/>
+        <rect width="16" height="8" x="88" y="56" rx="4"/>
+        <rect width="16" height="8" x="88" y="80" rx="4"/>
+        <rect width="16" height="8" x="88" y="104" rx="4"/>
+    </g>
+</svg>

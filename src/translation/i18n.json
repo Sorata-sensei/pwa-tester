@@ -1,0 +1,322 @@
+{
+  "en": {
+    "system": {
+      "aeropress": "AeroPress",
+      "moka": "Moka",
+      "v60": "V60",
+      "frenchPress": "French Press"
+    },
+    "global": {
+      "g": "g",
+      "ml": "ml",
+      "loading": "Loading...",
+      "paused": "Paused",
+      "enjoy": "Enjoy your coffee",
+      "inverted": "Inverted"
+    },
+    "grind": [
+      "Espresso",
+      "Extra Fine",
+      "Fine",
+      "Medium Fine",
+      "Medium",
+      "Medium Coarse",
+      "Coarse"
+    ],
+    "step": {
+      "pour": "Pour water",
+      "add": "Add coffee",
+      "stir": "Stir",
+      "wait": "Wait",
+      "place": "Place plunger",
+      "press": "Press",
+      "bloom": "Bloom",
+      "lid": "Put the lid on",
+      "swirl": "Swirl",
+      "invert": "Invert",
+      "brew": "Brew",
+      "heat": "Heat the water",
+      "filter": "Place filter"
+    }
+  },
+  "ru": {
+    "system": {
+      "aeropress": "Аэропресс",
+      "moka": "Гейзер",
+      "v60": "V60",
+      "frenchPress": "Френч-пресс"
+    },
+    "global": {
+      "g": "г",
+      "ml": "мл",
+      "loading": "Загрузка...",
+      "paused": "Пауза",
+      "enjoy": "Кофе готов!",
+      "inverted": "Инвертированный"
+    },
+    "grind": [
+      "Для эспрессо",
+      "Очень мелкий",
+      "Мелкий",
+      "Средне мелкий",
+      "Средний",
+      "Средне крупный",
+      "Крупный"
+    ],
+    "step": {
+      "pour": "Наливайте воду",
+      "add": "Добавьте кофе",
+      "stir": "Мешайте",
+      "wait": "Ждите",
+      "place": "Поместите пресс",
+      "press": "Жмите пресс",
+      "bloom": "Цветение",
+      "lid": "Поставьте крышку",
+      "swirl": "Вращайте",
+      "invert": "Переверните",
+      "brew": "Варите",
+      "heat": "Нагрейте воду",
+      "filter": "Положите фильтр"
+    }
+  },
+  "pl": {
+    "system": {
+      "aeropress": "AeroPress",
+      "moka": "Kawiarka",
+      "v60": "V60",
+      "frenchPress": "French Press"
+    },
+    "global": {
+      "g": "g",
+      "ml": "ml",
+      "loading": "Ładowanie...",
+      "paused": "Pauza",
+      "enjoy": "Kawa jest gotowa!",
+      "inverted": "Odwrócony"
+    },
+    "grind": [
+      "Espresso",
+      "Extra Fine",
+      "Fine",
+      "Medium Fine",
+      "Medium",
+      "Medium Coarse",
+      "Coarse"
+    ],
+    "step": {
+      "pour": "Nalej wodę",
+      "add": "Dodaj kawę",
+      "stir": "Wymieszaj",
+      "wait": "Czekaj",
+      "place": "Umieść prasę",
+      "press": "Delikatnie wyciskaj",
+      "bloom": "Proces palenia",
+      "lid": "Załóż pokrywę",
+      "swirl": "Obracaj po kołu",
+      "invert": "Odwróć",
+      "brew": "Zaparzaj",
+      "heat": "Podgrzej wodę",
+      "filter": "Umieść filtr"
+    }
+  },
+  "be": {
+    "system": {
+      "aeropress": "Аэрапрэс",
+      "moka": "Гейзер",
+      "v60": "V60",
+      "frenchPress": "French Press"
+    },
+    "global": {
+      "g": "г",
+      "ml": "мл",
+      "loading": "Загрузка...",
+      "paused": "Паўза",
+      "enjoy": "Кава гатова!",
+      "inverted": "Інвертаваны"
+    },
+    "grind": [
+      "Для эспрэса",
+      "Вельмі дробны",
+      "Дробны",
+      "Сярэдне дробны",
+      "Сярэдні",
+      "Сярэдне буйны",
+      "Буйны"
+    ],
+    "step": {
+      "pour": "Налівайце ваду",
+      "add": "Дадайце кавы",
+      "stir": "Замінайце",
+      "wait": "Чакайце",
+      "place": "Змясціце прэс",
+      "press": "Цісніце прэс",
+      "bloom": "Квітненне",
+      "lid": "Пастаўце накрыўку",
+      "swirl": "Круціце",
+      "invert": "Перавярніце",
+      "brew": "Варыце",
+      "heat": "Нагрэйце ваду",
+      "filter": "Пакладзіце фільтр"
+    }
+  },
+  "fil": {
+    "system": {
+      "aeropress": "AeroPress",
+      "moka": "moka",
+      "v60": "v60",
+      "frenchPress": "French Press"
+    },
+    "global": {
+      "g": "g",
+      "ml": "ml",
+      "loading": "Maghintay lamang...",
+      "paused": "nakahimpil",
+      "enjoy": "Sana masaya kayo!",
+      "inverted": "Baliktad"
+    },
+    "grind": [
+      "Espresso",
+      "Extra Fine",
+      "Fine",
+      "Medium Fine",
+      "Medium",
+      "Medium Coarse",
+      "Coarse"
+    ],
+    "step": {
+      "pour": "ibuhos",
+      "add": "dagdagan",
+      "stir": "haluin",
+      "wait": "maghintay",
+      "place": "ilagay",
+      "press": "pindutin",
+      "bloom": "i-bloom",
+      "lid": "takip",
+      "swirl": "i-swirl",
+      "invert": "baliktad",
+      "brew": "i-brew",
+      "heat": "painitin",
+      "filter": "i-filter"
+    }
+  },
+  "de": {
+    "system": {
+      "aeropress": "AeroPress",
+      "moka": "Kaffeemaschine",
+      "v60": "V60",
+      "frenchPress": "Kaffeepresse"
+    },
+    "global": {
+      "g": "G",
+      "ml": "ml",
+      "loading": "Landung...",
+      "paused": "Pause",
+      "enjoy": "Der Kaffee ist fertig!",
+      "inverted": "Invertiert"
+    },
+    "grind": [
+      "Ausgedrückt",
+      "Extra Fein",
+      "Fein",
+      "Mittel Fein",
+      "Mittel",
+      "Mittel Grob",
+      "Grob"
+    ],
+    "step": {
+      "pour": "Gieße Wasser",
+      "add": "Kaffee hinzufügen",
+      "stir": "Mischen Sie es",
+      "wait": "Warten Sie mal",
+      "place": "Setzen Sie die Presse",
+      "press": "Delikatnie wyciskaj",
+      "bloom": "Vorsichtig drücken",
+      "lid": "Bringen Sie die Abdeckung wieder an",
+      "swirl": "Im Kreis drehen",
+      "invert": "Umdrehen",
+      "brew": "Brauen Sie es",
+      "heat": "Wasser erhitzen",
+      "filter": "Setzen Sie den Filter ein"
+    }
+  },
+  "pt": {
+    "system": {
+      "aeropress": "AeroPress",
+      "moka": "Moka",
+      "v60": "V60",
+      "frenchPress": "French Press"
+    },
+    "global": {
+      "g": "g",
+      "ml": "ml",
+      "loading": "Carregando...",
+      "paused": "Pausado",
+      "enjoy": "Aprecie seu café",
+      "inverted": "Invertido"
+    },
+    "grind": [
+      "Espresso",
+      "Extrafino",
+      "Fino",
+      "Médio-fino",
+      "Médio",
+      "Médio-grosso",
+      "Grosso"
+    ],
+    "step": {
+      "pour": "Despeje a água",
+      "add": "Adicione café",
+      "stir": "Mexa",
+      "wait": "Espere",
+      "place": "Coloque a prensa",
+      "press": "Prense",
+      "bloom": "Infuse",
+      "lid": "Ponha a tampa",
+      "swirl": "Mexa circularmente",
+      "invert": "Inverta",
+      "brew": "Prepare o café",
+      "heat": "Aqueça a água",
+      "filter": "Coloque o filtro"
+    }
+  },
+  "it": {
+    "system": {
+      "aeropress": "AeroPress",
+      "moka": "Caffettiera",
+      "v60": "V60",
+      "frenchPress": "Caffettiera francese"
+    },
+    "global": {
+      "g": "g",
+      "ml": "ml",
+      "loading": "Caricamento...",
+      "paused": "In pausa",
+      "enjoy": "Goiditi il tuo caffè",
+      "inverted": "Invertito"
+    },
+    "grind": [
+      "Espresso",
+      "Extra Fino",
+      "Fino",
+      "Medio Fino",
+      "Medio",
+      "Medio Grosso",
+      "Grosso"
+    ],
+    "step": {
+      "pour": "Versa acqua",
+      "add": "Aggiungi caffè",
+      "stir": "Agita",
+      "wait": "Aspetta",
+      "place": "Posiziona",
+      "press": "Premi",
+      "bloom": "Apri",
+      "lid": "Metti il coperchio",
+      "swirl": "Gira",
+      "invert": "Inverti",
+      "brew": "Miscela",
+      "heat": "Riscalda l'acqua",
+      "filter": "Metti il filtro"
+    }
+  }
+}

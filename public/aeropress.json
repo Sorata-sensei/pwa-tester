@@ -1,0 +1,214 @@
+[
+  {
+    "name": "standrard",
+    "title": "Standard", 
+    "notes": "",
+    "ingridients": {
+      "coffee": 16,
+      "water": 260,
+      "grind": 4,
+      "temp": 90,
+      "inverted": false,
+      "time": 120
+    },
+    "steps": [
+      {
+        "type": "pour",
+        "amount": 60,
+        "time": 10
+      },
+      {
+        "type": "stir",
+        "time": 5
+      },
+      {
+        "type": "wait",
+        "time": 25
+      },
+      {
+        "type": "pour",
+        "amount": 200,
+        "time": 20
+      },
+      {
+        "type": "place",
+        "time": 5
+      },
+      {
+        "type": "press",
+        "time": 55
+      }
+    ]
+  },
+  {
+    "name": "coarse-inverted",
+    "title": "Coarse inverted", 
+    "notes": "Last 40 ml pour - with room temperature",
+    "ingridients": {
+      "coffee": 35,
+      "water": 200,
+      "grind": 7,
+      "temp": 85,
+      "inverted": true,
+      "time": 105
+    },
+    "steps": [
+      {
+        "type": "pour",
+        "amount": 100,
+        "time": 30
+      },
+      {
+        "type": "stir",
+        "time": 30
+      },
+      {
+        "type": "lid",
+        "time": 5
+      },
+      {
+        "type": "invert",
+        "time": 5
+      },
+      {
+        "type": "press",
+        "time": 25,
+        "notes": "Press fast"
+      },
+      {
+        "type": "pour",
+        "amount": 60,
+        "time": 5
+      },
+      {
+        "type": "pour",
+        "amount": 40,
+        "time": 5
+      }
+    ]
+  },
+  {
+    "name": "inverted",
+    "title": "Simple inverted", 
+    "notes": "",
+    "ingridients": {
+      "coffee": 20,
+      "water": 230,
+      "grind": 6,
+      "temp": 80,
+      "inverted": true,
+      "time": 100
+    },
+    "steps": [
+      {
+        "type": "pour",
+        "amount": 60,
+        "time": 10
+      },
+      {
+        "type": "swirl",
+        "time": 15
+      },
+      {
+        "type": "wait",
+        "time": 20
+      },
+      {
+        "type": "pour",
+        "amount": 170,
+        "time": 15
+      },
+      {
+        "type": "lid",
+        "time": 5
+      },
+      {
+        "type": "invert",
+        "time": 5
+      },
+      {
+        "type": "press",
+        "time": 30
+      }
+    ]
+  },
+  {
+    "name": "classic-espresso",
+    "title": "Classic espresso style", 
+    "notes": "Recipe from instruction. Not a real espresso just a small cup of coffee",
+    "ingridients": {
+      "coffee": 15,
+      "water": 50,
+      "grind": 2,
+      "temp": 80,
+      "inverted": false,
+      "time": 65
+    },
+    "steps": [
+      {
+        "type": "add",
+        "time": 5
+      },
+      {
+        "type": "pour",
+        "amount": 50,
+        "time": 10
+      },
+      {
+        "type": "stir",
+        "time": 5
+      },
+      {
+        "type": "wait",
+        "time": 10
+      },
+      {
+        "type": "place",
+        "time": 5
+      },
+      {
+        "type": "press",
+        "time": 30
+      }
+    ]
+  },
+  {
+    "name": "real-espresso",
+    "title": "Like real espresso", 
+    "notes": "Use metal filter. Found this recipe in the internet: https://www.youtube.com/watch?v=_nx_NN6xZH0 . Be prepared and use strong cup",
+    "ingridients": {
+      "coffee": 9,
+      "water": 50,
+      "grind": 1,
+      "temp": 95,
+      "inverted": false,
+      "time": 75
+    },
+    "steps": [
+      {
+        "type": "add",
+        "notes": "Add tampered coffee, use something to tamper it inside",
+        "time": 20
+      },
+      {
+        "type": "filter",
+        "notes": "Add second paper filter on the top of the coffee",
+        "time": 10
+      },
+      {
+        "type": "pour",
+        "amount": 50,
+        "time": 10
+      },
+      {
+        "type": "place",
+        "time": 5
+      },
+      {
+        "type": "press",
+        "notes": "You need to press REALLY hard",
+        "time": 30
+      }
+    ]
+  }
+]
