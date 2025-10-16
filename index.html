@@ -1,24 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
-	<meta charset='utf-8'>
-	<meta name='viewport' content='width=device-width,initial-scale=1'>
-
-	<title>2 Brew</title>
-
-	<link rel='icon' type='image/png' href='/public/favicon.png'>
-	<link rel='stylesheet' href='/public/global.css'>
-	<link rel='stylesheet' href='/public/build/bundle.css'>
-	<link rel="manifest" href="manifest.json">
-
-	<script defer src='/public/build/bundle.js'></script>
-	<script>
-		if ('serviceWorker' in navigator) {
-			navigator.serviceWorker.register('service-worker.js');
-		}
-	</script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#4F46E5" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="icon" href="icons/icon-192x192.png" type="image/png" />
+  <title>PWA Template Responsif</title>
+  <link rel="stylesheet" href="assets/style.css" />
 </head>
-
 <body>
+  <header class="header">
+    <h1>PWA Template</h1>
+    <p>Contoh aplikasi web progresif yang responsif</p>
+  </header>
+
+  <main class="main">
+    <section class="card">
+      <h2>Selamat Datang!</h2>
+      <p>
+        Ini adalah template PWA responsif. Kamu bisa ubah teks, warna, dan layout-nya sesuai kebutuhan.
+      </p>
+      <button onclick="alert('PWA aktif!')">Tes Tombol</button>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2025 Muhammad Anwar Fauzi</p>
+  </footer>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('service-worker.js')
+        .then(() => console.log('Service Worker terdaftar!'))
+        .catch(err => console.error('SW gagal:', err));
+    }
+  </script>
 </body>
 </html>
