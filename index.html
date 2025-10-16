@@ -33,11 +33,12 @@
 
   <script>
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('service-worker.js')
-        .then(() => console.log('Service Worker terdaftar!'))
+      navigator.serviceWorker.register('./service-worker.js')
+        .then(() => console.log('SW registered!'))
         .catch(err => console.error('SW gagal:', err));
     }
   </script>
+
 </body>
 
 </html>
